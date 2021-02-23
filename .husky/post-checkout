@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn node vite-server.js
+yarn node vite-server-wrap.js
