@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "vite --force"
+      "post-checkout": "yarn node vite-server.js"
     }
   },
   "dependencies": {
