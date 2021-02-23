@@ -6,6 +6,11 @@
     "build": "vite build",
     "serve": "vite preview"
   },
+  "husky": {
+    "hooks": { 
+      "post-commit": "echo \"Post commit via husky\""
+    }
+  },
   "dependencies": {
     "vue": "^3.0.5"
   },
