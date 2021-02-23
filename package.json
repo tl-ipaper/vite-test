@@ -4,11 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "postinstall": "husky install"
   },
   "husky": {
     "hooks": {
-      "post-checkout": "echo \"Running husky\" && yarn node vite-server.js"
+      "post-checkout": "echo \"Running husky\" && yarn node vite-server.js",
+      "pre-commit": "echo \"Committing through husky\""
     }
   },
   "dependencies": {
