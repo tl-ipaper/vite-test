@@ -6,12 +6,18 @@
     "build": "vite build",
     "serve": "vite preview"
   },
+  "husky": {
+    "hooks": {
+      "post-checkout": "vite --force"
+    }
+  },
   "dependencies": {
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "husky": "^5.1.1",
     "typescript": "^4.1.3",
     "vite": "^2.0.1"
   }
