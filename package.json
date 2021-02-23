@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "yarn node vite-server.js"
+      "post-checkout": "echo \"Running husky\" && yarn node vite-server.js"
     }
   },
   "dependencies": {
