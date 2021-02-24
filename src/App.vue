@@ -6,15 +6,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
-import chalk from 'chalk';
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld
-  },
-  setup() {
-    console.log(chalk.blue.bgRed.bold("Hello world! chalk"));
   }
 })
 </script>
