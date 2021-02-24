@@ -1,7 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-const { spawn } = require('child_process');
-const bat = spawn('yarn node', ['vite-server.js']);
-
-# yarn node vite-server-wrap.js

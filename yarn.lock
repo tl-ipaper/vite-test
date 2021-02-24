@@ -660,15 +660,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"husky@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "husky@npm:5.1.1"
-  bin:
-    husky: lib/bin.js
-  checksum: 130f2298be383902001827e536b8345a8889609128c182923d9f4c8acae09ce791a3b83d1f67b148dde74d39bd61c17b86c3b4eb7e1dbb9cc7aebcc03b1ff015
-  languageName: node
-  linkType: hard
-
 "icss-replace-symbols@npm:^1.1.0":
   version: 1.1.0
   resolution: "icss-replace-symbols@npm:1.1.0"
@@ -1522,7 +1513,6 @@ typescript@^4.1.3:
   dependencies:
     "@vitejs/plugin-vue": ^1.1.4
     "@vue/compiler-sfc": ^3.0.5
-    husky: ^5.1.1
     typescript: ^4.1.3
     vite: ^2.0.1
     vue: ^3.0.5
