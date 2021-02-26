@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-vue", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4"],
             ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"],
             ["@yarnpkg/pnpify", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0"],
+            ["husky", "npm:5.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
             ["vite", "npm:2.0.2"],
             ["vue", "npm:3.0.5"]
@@ -1576,6 +1577,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["husky", [
+        ["npm:5.1.1", {
+          "packageLocation": "./.yarn/cache/husky-npm-5.1.1-2cc506f396-130f2298be.zip/node_modules/husky/",
+          "packageDependencies": [
+            ["husky", "npm:5.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["icss-replace-symbols", [
         ["npm:1.1.0", {
           "packageLocation": "./.yarn/cache/icss-replace-symbols-npm-1.1.0-bc11c612de-6529ec8274.zip/node_modules/icss-replace-symbols/",
@@ -3051,6 +3061,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-vue", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4"],
             ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"],
             ["@yarnpkg/pnpify", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0"],
+            ["husky", "npm:5.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
             ["vite", "npm:2.0.2"],
             ["vue", "npm:3.0.5"]
