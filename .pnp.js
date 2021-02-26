@@ -19,14 +19,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "vite-template",
+        "name": "vite-monorep",
         "reference": "workspace:."
+      },
+      {
+        "name": "evolved",
+        "reference": "workspace:packages/evolved"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["vite-template", ["workspace:."]]
+      ["evolved", ["workspace:packages/evolved"]],
+      ["vite-monorep", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -37,13 +42,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@vitejs/plugin-vue", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4"],
-            ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"],
-            ["@yarnpkg/pnpify", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0"],
-            ["husky", "npm:5.1.1"],
-            ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
-            ["vite", "npm:2.0.2"],
-            ["vue", "npm:3.0.5"]
           ],
           "linkType": "SOFT",
         }]
@@ -232,12 +230,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4", {
-          "packageLocation": "./.yarn/$$virtual/@vitejs-plugin-vue-virtual-ed8103e3e9/0/cache/@vitejs-plugin-vue-npm-1.1.4-cf3ea329b9-8c40b5bfef.zip/node_modules/@vitejs/plugin-vue/",
+        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4", {
+          "packageLocation": "./.yarn/$$virtual/@vitejs-plugin-vue-virtual-12bd3ff520/0/cache/@vitejs-plugin-vue-npm-1.1.4-cf3ea329b9-8c40b5bfef.zip/node_modules/@vitejs/plugin-vue/",
           "packageDependencies": [
-            ["@vitejs/plugin-vue", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4"],
+            ["@vitejs/plugin-vue", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4"],
             ["@types/vue__compiler-sfc", null],
-            ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"]
+            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"]
           ],
           "packagePeers": [
             "@types/vue__compiler-sfc",
@@ -279,10 +277,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5", {
-          "packageLocation": "./.yarn/$$virtual/@vue-compiler-sfc-virtual-f2e6dcfe1d/0/cache/@vue-compiler-sfc-npm-3.0.5-29ad961bed-6243d55e42.zip/node_modules/@vue/compiler-sfc/",
+        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5", {
+          "packageLocation": "./.yarn/$$virtual/@vue-compiler-sfc-virtual-dad8234155/0/cache/@vue-compiler-sfc-npm-3.0.5-29ad961bed-6243d55e42.zip/node_modules/@vue/compiler-sfc/",
           "packageDependencies": [
-            ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"],
+            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"],
             ["@babel/parser", "npm:7.13.0"],
             ["@babel/types", "npm:7.13.0"],
             ["@types/vue", null],
@@ -466,10 +464,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0", {
-          "packageLocation": "./.yarn/$$virtual/@yarnpkg-pnpify-virtual-3ce9b5ec93/0/cache/@yarnpkg-pnpify-npm-2.4.0-f9312c18ed-89bbbe7f62.zip/node_modules/@yarnpkg/pnpify/",
+        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0", {
+          "packageLocation": "./.yarn/$$virtual/@yarnpkg-pnpify-virtual-ed87bc92b3/0/cache/@yarnpkg-pnpify-npm-2.4.0-f9312c18ed-89bbbe7f62.zip/node_modules/@yarnpkg/pnpify/",
           "packageDependencies": [
-            ["@yarnpkg/pnpify", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0"],
+            ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
             ["@types/eslint", null],
             ["@types/typescript", null],
             ["@yarnpkg/core", "npm:2.4.0"],
@@ -1178,6 +1176,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["estree-walker", "npm:2.0.2"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["evolved", [
+        ["workspace:packages/evolved", {
+          "packageLocation": "./packages/evolved/",
+          "packageDependencies": [
+            ["evolved", "workspace:packages/evolved"],
+            ["@vitejs/plugin-vue", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4"],
+            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"],
+            ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
+            ["husky", "npm:5.1.1"],
+            ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
+            ["vite", "npm:2.0.2"],
+            ["vue", "npm:3.0.5"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["extend", [
@@ -3053,18 +3067,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["vite-template", [
+      ["vite-monorep", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["vite-template", "workspace:."],
-            ["@vitejs/plugin-vue", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:1.1.4"],
-            ["@vue/compiler-sfc", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:3.0.5"],
-            ["@yarnpkg/pnpify", "virtual:6c1b6d7ee56175e99a1bb692d5a57057189c008e55c16f5e6b4b8bd011cfd76f7e7c8530a35f26f2b70cca4fe96a1714e38cd6627f16c338d07c2fc2ecf1b475#npm:2.4.0"],
-            ["husky", "npm:5.1.1"],
-            ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
-            ["vite", "npm:2.0.2"],
-            ["vue", "npm:3.0.5"]
+            ["vite-monorep", "workspace:."]
           ],
           "linkType": "SOFT",
         }]
