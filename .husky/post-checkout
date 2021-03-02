@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -d "./node_modules" ] 
+if [ -d "./packages/**/node_modules" ] 
 then
-    rm -r ./node_modules/
+    rm -r ./packages/**/node_modules/
 fi

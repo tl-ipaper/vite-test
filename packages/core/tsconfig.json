@@ -9,20 +9,13 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    "lib": ["esnext", "dom"],
     "types": ["vite/client"],
     "paths": {
       "@core/*": [
-        "../core/src/*"
-      ],
-      "@evolved/*": [
         "src/*"
       ]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

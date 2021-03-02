@@ -1,5 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <Header />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite test" />
 </template>
 
@@ -10,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue';
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    'HelloWorld': HelloWorld
   }
 })
 </script>

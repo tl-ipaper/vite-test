@@ -23,6 +23,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."
       },
       {
+        "name": "core",
+        "reference": "workspace:packages/core"
+      },
+      {
         "name": "evolved",
         "reference": "workspace:packages/evolved"
       }
@@ -30,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
+      ["core", ["workspace:packages/core"]],
       ["evolved", ["workspace:packages/evolved"]],
       ["vite-monorep", ["workspace:."]]
     ],
@@ -230,12 +235,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4", {
-          "packageLocation": "./.yarn/$$virtual/@vitejs-plugin-vue-virtual-12bd3ff520/0/cache/@vitejs-plugin-vue-npm-1.1.4-cf3ea329b9-8c40b5bfef.zip/node_modules/@vitejs/plugin-vue/",
+        ["virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.4", {
+          "packageLocation": "./.yarn/$$virtual/@vitejs-plugin-vue-virtual-0c34a9a80f/0/cache/@vitejs-plugin-vue-npm-1.1.4-cf3ea329b9-8c40b5bfef.zip/node_modules/@vitejs/plugin-vue/",
           "packageDependencies": [
-            ["@vitejs/plugin-vue", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4"],
+            ["@vitejs/plugin-vue", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.4"],
             ["@types/vue__compiler-sfc", null],
-            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"]
+            ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5"]
           ],
           "packagePeers": [
             "@types/vue__compiler-sfc",
@@ -277,10 +282,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5", {
-          "packageLocation": "./.yarn/$$virtual/@vue-compiler-sfc-virtual-dad8234155/0/cache/@vue-compiler-sfc-npm-3.0.5-29ad961bed-6243d55e42.zip/node_modules/@vue/compiler-sfc/",
+        ["virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5", {
+          "packageLocation": "./.yarn/$$virtual/@vue-compiler-sfc-virtual-9ceccbc619/0/cache/@vue-compiler-sfc-npm-3.0.5-29ad961bed-6243d55e42.zip/node_modules/@vue/compiler-sfc/",
           "packageDependencies": [
-            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"],
+            ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5"],
             ["@babel/parser", "npm:7.13.0"],
             ["@babel/types", "npm:7.13.0"],
             ["@types/vue", null],
@@ -980,6 +985,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["core", [
+        ["workspace:packages/core", {
+          "packageLocation": "./packages/core/",
+          "packageDependencies": [
+            ["core", "workspace:packages/core"],
+            ["@vitejs/plugin-vue", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.4"],
+            ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5"],
+            ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
+            ["vite", "npm:2.0.2"],
+            ["vue", "npm:3.0.5"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
       ["core-util-is", [
         ["npm:1.0.2", {
           "packageLocation": "./.yarn/cache/core-util-is-npm-1.0.2-9fc2b94dc3-089015ee3c.zip/node_modules/core-util-is/",
@@ -1183,9 +1202,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/evolved/",
           "packageDependencies": [
             ["evolved", "workspace:packages/evolved"],
-            ["@vitejs/plugin-vue", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:1.1.4"],
-            ["@vue/compiler-sfc", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:3.0.5"],
+            ["@vitejs/plugin-vue", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.4"],
+            ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5"],
             ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
+            ["core", "workspace:packages/core"],
             ["husky", "npm:5.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
             ["vite", "npm:2.0.2"],
