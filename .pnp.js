@@ -3011,7 +3011,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/test-utils", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.0.0-rc.2"],
             ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
             ["babel-jest", "virtual:caddf51df4928b33a437ca87b8f5ddfb6205ebd6d8231f74d4ee7223f3866e6f815b221aa1e2bd33e98915f701e95bae72a93d2288b49a34a6246bdbc2a4a132#npm:26.6.3"],
-            ["core", "workspace:packages/core"],
             ["jest", "npm:26.6.3"],
             ["jest-transform-stub", "npm:2.0.0"],
             ["ts-jest", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:26.5.2"],
