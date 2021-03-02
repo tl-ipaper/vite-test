@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "cd packages/evolved && yarn dev"
+    "dev": "yarn workspace evolved run dev",
+    "build": "yarn workspaces foreach run build"
   },
   "devDependencies": {
     "@yarnpkg/pnpify": "^2.4.0",
