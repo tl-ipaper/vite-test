@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b62f8ee3-9534-4e6d-9969-3e79b4166c18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/build-state.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/build-state.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@arcanis-slice-ansi-npm-1.0.2-f258a50730-1b45393630.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-code-frame-npm-7.12.13-fb5ba5a992-471532bb7c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-compat-data-npm-7.13.8-1c889a67bb-e07e247379.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-compiler-core-npm-3.0.5-d5a258c26c-a7d6fb2cd0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-compiler-dom-npm-3.0.5-3d63a4ae02-b2320f953e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-compiler-sfc-npm-3.0.5-29ad961bed-6243d55e42.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-compiler-ssr-npm-3.0.5-6b54b89a4b-cd137a2700.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-reactivity-npm-3.0.5-543fdb59d7-7ea18fbf2e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-runtime-core-npm-3.0.5-ede78e1feb-801120943f.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-runtime-dom-npm-3.0.5-36b969e04e-74db9cb3c6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@vue-shared-npm-3.0.5-26dd3c1245-9305884d86.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/icss-utils-npm-4.1.1-9d588ebc46-437ba4f7c9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-modules-extract-imports-npm-2.0.0-da9714d21f-82e5932581.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-modules-local-by-default-npm-3.0.3-c3456a1d54-6d34b3b1dc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-modules-npm-3.2.2-1cef301503-da8c001ad6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-modules-scope-npm-2.2.0-e243a2b896-c560d3aa7b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-modules-values-npm-3.0.0-bbe8110e5b-01dc4ea51e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-npm-7.0.35-d0709e0a47-8a979ea979.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/supports-color-npm-6.1.0-7d19cd7f55-8682157129.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/vue-npm-3.0.5-8998ee4710-ed84a0afcf.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/bin/tsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/bin/tsserver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/lib/tsc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/lib/tsserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/lib/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/sdks/typescript/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/evolved/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/evolved/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/evolved/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/evolved/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pCANoR6bvjSDlmDZ5GJtR6vVwC" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ipaper/Web/Display.Client" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="yarn:packages\evolved\package.json:typescript" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b62f8ee3-9534-4e6d-9969-3e79b4166c18" name="Default Changelist" comment="" />
+      <created>1614676661143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614676661143</updated>
+      <workItem from="1614676662258" duration="283000" />
+      <workItem from="1614676981218" duration="3816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614680222376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614680222376" />
+  </component>
+</project>

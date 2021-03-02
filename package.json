@@ -8,6 +8,7 @@
     "dev": "cd packages/evolved && yarn dev"
   },
   "devDependencies": {
+    "@yarnpkg/pnpify": "^2.4.0",
     "husky": "^5.1.3"
   }
 }
