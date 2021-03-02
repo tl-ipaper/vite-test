@@ -1346,6 +1346,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@vue/test-utils", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.0.0-rc.2"],
             ["@types/vue", null],
+            ["@vue/compiler-dom", "npm:3.0.7"],
             ["vue", "npm:3.0.7"]
           ],
           "packagePeers": [
@@ -1475,31 +1476,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],
             ["tslib", "npm:1.14.1"],
             ["typescript", null]
-          ],
-          "packagePeers": [
-            "@types/eslint",
-            "@types/typescript",
-            "eslint",
-            "typescript"
-          ],
-          "linkType": "HARD",
-        }],
-        ["virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0", {
-          "packageLocation": "./.yarn/$$virtual/@yarnpkg-pnpify-virtual-ed87bc92b3/0/cache/@yarnpkg-pnpify-npm-2.4.0-f9312c18ed-89bbbe7f62.zip/node_modules/@yarnpkg/pnpify/",
-          "packageDependencies": [
-            ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
-            ["@types/eslint", null],
-            ["@types/typescript", null],
-            ["@yarnpkg/core", "npm:2.4.0"],
-            ["@yarnpkg/fslib", "npm:2.4.0"],
-            ["@yarnpkg/parsers", "npm:2.3.0"],
-            ["chalk", "npm:3.0.0"],
-            ["clipanion", "npm:2.6.2"],
-            ["comment-json", "npm:2.4.2"],
-            ["eslint", null],
-            ["lodash", "npm:4.17.21"],
-            ["tslib", "npm:1.14.1"],
-            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -3009,7 +2985,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-vue", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.5"],
             ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.7"],
             ["@vue/test-utils", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.0.0-rc.2"],
-            ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
             ["babel-jest", "virtual:caddf51df4928b33a437ca87b8f5ddfb6205ebd6d8231f74d4ee7223f3866e6f815b221aa1e2bd33e98915f701e95bae72a93d2288b49a34a6246bdbc2a4a132#npm:26.6.3"],
             ["core", "workspace:packages/core"],
             ["jest", "npm:26.6.3"],
@@ -7501,11 +7476,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/ts-jest", null],
             ["@types/typescript", null],
             ["@types/vue", null],
+            ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.7"],
             ["babel-jest", "virtual:caddf51df4928b33a437ca87b8f5ddfb6205ebd6d8231f74d4ee7223f3866e6f815b221aa1e2bd33e98915f701e95bae72a93d2288b49a34a6246bdbc2a4a132#npm:26.6.3"],
             ["chalk", "npm:2.4.2"],
             ["convert-source-map", "npm:1.7.0"],
             ["extract-from-css", "npm:0.4.4"],
             ["jest", "npm:26.6.3"],
+            ["source-map", "npm:0.6.1"],
             ["ts-jest", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:26.5.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"],
             ["vue", "npm:3.0.7"]
