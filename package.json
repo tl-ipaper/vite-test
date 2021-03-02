@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "cd packages/evolved && yarn dev"
+  },
   "devDependencies": {
     "husky": "^5.1.3"
   }
