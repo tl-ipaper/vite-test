@@ -9,7 +9,6 @@
     "test": "npx jest -c='tests/jest.config.js'"
   },
   "dependencies": {
-    "core": "1.0.0",
     "vue": "^3.0.7"
   },
   "devDependencies": {
