@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["husky", "npm:5.1.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -1618,6 +1619,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:5.1.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:5.1.3", {
+          "packageLocation": "./.yarn/cache/husky-npm-5.1.3-62d158903e-99baafebe7.zip/node_modules/husky/",
+          "packageDependencies": [
+            ["husky", "npm:5.1.3"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["icss-replace-symbols", [
@@ -3091,7 +3099,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["vite-monorep", "workspace:."]
+            ["vite-monorep", "workspace:."],
+            ["husky", "npm:5.1.3"]
           ],
           "linkType": "SOFT",
         }]
