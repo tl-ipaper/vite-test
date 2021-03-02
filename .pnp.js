@@ -1207,7 +1207,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.5"],
             ["@yarnpkg/pnpify", "virtual:f7b605ee84726fd1432840cf9dd93bb415f312f813a990ff87e7547c2b25f5de7eff94d5bb62cb56235b2220bcce5cc7f9bdb941e30cb114ed33cf22e76ebd56#npm:2.4.0"],
             ["core", "workspace:packages/core"],
-            ["husky", "npm:5.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"],
             ["vite", "npm:2.0.2"],
             ["vue", "npm:3.0.5"]
@@ -1613,13 +1612,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:5.1.1", {
-          "packageLocation": "./.yarn/cache/husky-npm-5.1.1-2cc506f396-130f2298be.zip/node_modules/husky/",
-          "packageDependencies": [
-            ["husky", "npm:5.1.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:5.1.3", {
           "packageLocation": "./.yarn/cache/husky-npm-5.1.3-62d158903e-99baafebe7.zip/node_modules/husky/",
           "packageDependencies": [
