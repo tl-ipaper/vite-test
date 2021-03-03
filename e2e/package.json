@@ -1,0 +1,10 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "yarn node bigpp.ts"
+  },
+  "devDependencies": {
+    "playwright": "^1.9.1"
+  }
+}
