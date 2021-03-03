@@ -1,4 +1,5 @@
-import { chromium } from "playwright";
+// @ts-ignore
+const { chromium } = require('playwright');
 
 (async () => {
     const browser = await chromium.launch();
