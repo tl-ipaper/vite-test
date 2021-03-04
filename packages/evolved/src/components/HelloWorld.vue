@@ -22,7 +22,7 @@
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button id="cypress-test" @click="count++">Count is: {{ count }}</button>
+  <button id="e2e-test" @click="count++">Count is: {{ count }}</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.

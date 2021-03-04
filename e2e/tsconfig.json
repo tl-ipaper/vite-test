@@ -3,10 +3,14 @@
     "baseUrl": ".",
     "target": "esnext",
     "module": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
     "moduleResolution": "node",
+    "sourceMap": true,
     "strict": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noEmit": true,
+    "types": ["@types/node"]
   },
   "include": ["./**/*.ts"]
 }

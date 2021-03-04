@@ -2,9 +2,16 @@
   "name": "e2e",
   "version": "1.0.0",
   "scripts": {
-    "test": "yarn node bigpp.ts"
+    "test": "jest",
+    "test.watch": "jest --watchAll"
   },
   "devDependencies": {
-    "playwright": "^1.9.1"
+    "expect-playwright": "^0.3.2",
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3",
+    "jest-playwright-preset": "patch:jest-playwright-preset@^1.4.7#./../WORK.diff",
+    "playwright": "^1.9.1",
+    "playwright-chromium": "^1.9.1",
+    "playwright-core": "^1.9.1"
   }
 }

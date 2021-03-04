@@ -1,0 +1,42 @@
+diff --git a/lib/utils.js b/lib/utils.js
+index 7ae9b5698b6f4d943a2ce4c48379a6df71bd391b..85c4cc1cb2f0e5d8d5f4bbf121cfa191349bc738 100644
+--- a/lib/utils.js
++++ b/lib/utils.js
+@@ -85,6 +85,9 @@ const getDeviceBrowserType = (device, availableDevices) => {
+ };
+ exports.getDeviceBrowserType = getDeviceBrowserType;
+ const getPlaywrightInstance = (browserName) => {
++    console.log('LOOKING FOR:\n');
++    console.log(browserName);
++    console.log('\n\n\n\n\n');
+     let pw;
+     let name;
+     if (!browserName) {
+@@ -97,15 +100,24 @@ const getPlaywrightInstance = (browserName) => {
+         };
+     }
+     try {
+-        pw = require(`${constants_1.IMPORT_KIND_PLAYWRIGHT}-${browserName}`);
++        pw = require('playwright-chromium');
+         name = browserName;
+     }
+     catch (e) {
++        console.log('\n\n\n\n\n');
++        console.log('First err\n');
++        console.error(e);
++        console.log('\n\n\n\n\n');
++        
+         try {
+-            pw = require(constants_1.IMPORT_KIND_PLAYWRIGHT);
+-            name = constants_1.IMPORT_KIND_PLAYWRIGHT;
++            pw = require('playwright');
++            name = 'playwright';
+         }
+         catch (e) {
++            console.log('\n\n\n\n\n');
++            console.log('Second err\n');
++            console.error(e);
++            console.log('\n\n\n\n\n');
+             throw new PlaywrightError(`Cannot find playwright package to use ${browserName}`);
+         }
+     }
