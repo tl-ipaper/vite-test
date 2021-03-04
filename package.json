@@ -2,7 +2,8 @@
   "name": "vite-monorep",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "e2e"
   ],
   "scripts": {
     "dev": "yarn workspace evolved run dev",
