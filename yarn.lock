@@ -2509,13 +2509,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e@workspace:e2e"
   dependencies:
+    "@types/jest": ^26.0.20
     expect-playwright: ^0.3.2
     jest: ^26.6.3
     jest-circus: ^26.6.3
-    jest-playwright-preset: "patch:jest-playwright-preset@^1.4.7#./../WORK.diff"
+    jest-playwright-preset: ^1.4.7
     playwright: ^1.9.1
     playwright-chromium: ^1.9.1
     playwright-core: ^1.9.1
+    ts-jest: ^26.5.3
+    typescript: 4.1.3
   languageName: unknown
   linkType: soft
 
@@ -4457,23 +4460,6 @@ jest-playwright-preset@^1.4.7:
     rimraf: ^3.0.2
     uuid: ^8.3.2
   checksum: 08cc00818d7d8586032ae3f87b737f99269097ea449b6f05459ac3bd068ccb1e0a4ab5ea1e9fc6d15d60591938f23b9649d275326becc4b41e0f2fb7b2b104b7
-  languageName: node
-  linkType: hard
-
-"jest-playwright-preset@patch:jest-playwright-preset@^1.4.7#./../WORK.diff::locator=e2e%40workspace%3Ae2e":
-  version: 1.4.7
-  resolution: "jest-playwright-preset@patch:jest-playwright-preset@npm%3A1.4.7#./../WORK.diff::version=1.4.7&hash=40cccf&locator=e2e%40workspace%3Ae2e"
-  dependencies:
-    expect-playwright: ^0.3.2
-    jest-circus: ^26.6.3
-    jest-environment-node: ^26.6.2
-    jest-process-manager: ^0.2.9
-    jest-runner: ^26.6.3
-    nyc: ^15.1.0
-    playwright-core: ">=1.2.0"
-    rimraf: ^3.0.2
-    uuid: ^8.3.2
-  checksum: 4767d369aa68c72370f3643f60ba524e2ac35553d4d44ccb06fa8c61374941ba6e19b78a14ca47826423773a5be3be9b8665692a8bb6fea64af40a57179f2332
   languageName: node
   linkType: hard
 
@@ -7318,6 +7304,29 @@ jest-playwright-preset@^1.4.7:
   bin:
     ts-jest: cli.js
   checksum: f9466241291bde18c6f6c5d61875d861983fa2a1b9b1a2164141418c129b874df2bc15bbc4fbde7fc2cb1fa9cae972d5fb292c79b4777afbe19f7ccf035e5d70
+  languageName: node
+  linkType: hard
+
+"ts-jest@npm:^26.5.3":
+  version: 26.5.3
+  resolution: "ts-jest@npm:26.5.3"
+  dependencies:
+    bs-logger: 0.x
+    buffer-from: 1.x
+    fast-json-stable-stringify: 2.x
+    jest-util: ^26.1.0
+    json5: 2.x
+    lodash: 4.x
+    make-error: 1.x
+    mkdirp: 1.x
+    semver: 7.x
+    yargs-parser: 20.x
+  peerDependencies:
+    jest: ">=26 <27"
+    typescript: ">=3.8 <5.0"
+  bin:
+    ts-jest: cli.js
+  checksum: 6f429720812687c60b58464e40452687f8dfd958c7cbaf80c36b5af67d5c90b7a313bad05aa385a7f703b0607163f2e879ed719ea12334868d849175414111e7
   languageName: node
   linkType: hard
 

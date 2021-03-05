@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noEmit": true,
-    "types": ["@types/node"]
+    "types": ["@types/jest", "playwright", "jest-playwright-preset", "expect-playwright"]
   },
   "include": ["./**/*.ts"]
 }
