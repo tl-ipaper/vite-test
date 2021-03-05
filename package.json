@@ -11,7 +11,11 @@
     "test:evolved": "yarn workspace evolved run test"
   },
   "devDependencies": {
+    "@types/eslint": "^7",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@yarnpkg/pnpify": "^2.4.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-vue": "^7.7.0",
     "husky": "^5.1.3",
     "typescript": "4.1.3"
   },
