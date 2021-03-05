@@ -53,7 +53,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@yarnpkg/pnpify", "virtual:d798e7e9cf66c445961750cc3c725017e7e97abe04b66342ef0cb87206cb3125056e691af0fabda52acea5b1312b278d9449406da262951404c568d22f4000de#npm:2.4.0"],
-            ["husky", "npm:5.1.3"]
+            ["husky", "npm:5.1.3"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"],
+            ["vue", "npm:3.0.7"]
           ],
           "linkType": "SOFT",
         }]
@@ -1572,7 +1574,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", null],
             ["lodash", "npm:4.17.21"],
             ["tslib", "npm:1.14.1"],
-            ["typescript", null]
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -8803,7 +8805,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["vite-monorep", "workspace:."],
             ["@yarnpkg/pnpify", "virtual:d798e7e9cf66c445961750cc3c725017e7e97abe04b66342ef0cb87206cb3125056e691af0fabda52acea5b1312b278d9449406da262951404c568d22f4000de#npm:2.4.0"],
-            ["husky", "npm:5.1.3"]
+            ["husky", "npm:5.1.3"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"],
+            ["vue", "npm:3.0.7"]
           ],
           "linkType": "SOFT",
         }]
