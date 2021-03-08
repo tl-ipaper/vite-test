@@ -8,11 +8,15 @@
   "scripts": {
     "dev": "yarn workspace evolved run dev",
     "build": "yarn workspaces foreach run build",
+    "lint:core": "yarn eslint ./packages/core/ --ext .ts",
+    "lint:evolved": "yarn eslint ./packages/evolved/ --ext .ts --ext .vue",
+    "fix:evolved": "yarn eslint ./packages/evolved/ --ext .ts --ext .vue --fix",
     "test:evolved": "yarn workspace evolved run test"
   },
   "devDependencies": {
     "@types/eslint": "^7",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
     "@yarnpkg/pnpify": "^2.4.0",
     "eslint": "^7.21.0",
     "eslint-plugin-vue": "^7.7.0",
@@ -20,6 +24,6 @@
     "typescript": "4.1.3"
   },
   "dependencies": {
-    "vue": "next"
+    "vue": "^3.0.7"
   }
 }

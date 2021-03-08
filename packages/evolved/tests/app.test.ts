@@ -1,4 +1,4 @@
-import { mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils';
 import App from '@evolved/App.vue';
 
 describe('App', () => {
