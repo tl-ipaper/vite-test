@@ -16,18 +16,20 @@
         "../core/src/*"
       ],
       "@evolved/*": [
-        "src/*"
+        "./src/*"
       ]
     }
   },
   "include": [
-    "*.ts",
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "../core/src/../*.ts",
-    "../core/src/../*.vue",
+    "../core/src/**/*.ts",
+    "../core/src/**/*.vue",
     "../../types"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

@@ -7,9 +7,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
-import { Test } from '@core/main.ts';
-
-console.log('Im in vue');
+import { Test } from '@core/main';
 
 export default defineComponent({
   name: 'App',
