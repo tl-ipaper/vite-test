@@ -4,9 +4,10 @@
   "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "yarn type-check && vite build",
     "serve": "vite preview",
-    "test": "npx jest -c='tests/jest.config.js'"
+    "test": "npx jest -c='tests/jest.config.js'",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "vue": "^3.0.7"

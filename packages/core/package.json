@@ -4,8 +4,9 @@
   "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "yarn type-check && vite build",
+    "serve": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "vue": "^3.0.7"
