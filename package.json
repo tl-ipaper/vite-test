@@ -8,9 +8,14 @@
   "scripts": {
     "dev": "yarn workspace evolved run dev",
     "build": "yarn workspaces foreach run build",
+    "build:core": "yarn workspaces core run build",
+    "build:evolved": "yarn workspaces evolved run build",
     "lint:core": "yarn eslint ./packages/core/ --ext .ts",
     "lint:evolved": "yarn eslint ./packages/evolved/ --ext .ts --ext .vue",
+    "fix:core": "yarn eslint ./packages/core/ --ext .ts --ext .vue --fix",
     "fix:evolved": "yarn eslint ./packages/evolved/ --ext .ts --ext .vue --fix",
+    "test": "yarn workspace foreach run test",
+    "test:core": "yarn workspace core run test",
     "test:evolved": "yarn workspace evolved run test"
   },
   "devDependencies": {
