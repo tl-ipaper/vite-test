@@ -9,6 +9,10 @@ export default defineConfig({
       {
         find: '@core',
         replacement: path.resolve(__dirname, '../core/src')
+      },
+      {
+        find: '@evolved',
+        replacement: path.resolve(__dirname, '/src')
       }
     ]
   },

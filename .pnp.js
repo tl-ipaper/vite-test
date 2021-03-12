@@ -2945,6 +2945,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/core/",
           "packageDependencies": [
             ["core", "workspace:packages/core"],
+            ["@types/node", "npm:14.14.31"],
             ["@vitejs/plugin-vue", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:1.1.5"],
             ["@vue/compiler-sfc", "virtual:c7d095e6adc16656f645e6ea711225b98f8ad24b3b58f92fcc1fbf663e539684836b70966ddfaf4f7fc692f11f2c0c15fa074e43202a8d67c2bd6b2705db8f98#npm:3.0.7"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"],

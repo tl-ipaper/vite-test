@@ -13,6 +13,7 @@ module.exports = {
     ],
     moduleDirectories: [
         '<rootDir>/../core/node_modules/',
+        '<rootDir>/../../node_modules/',
         '<rootDir>/node_modules/',
     ],
     moduleNameMapper: {
