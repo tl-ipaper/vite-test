@@ -1,7 +1,7 @@
 <template>
 	<h1>{{ msg }}</h1>
 
-	<p>
+	<p style="line-height: 1.5;">
 		Recommended IDE setup:
 		<a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
 		+
@@ -9,22 +9,25 @@
 			href="https://marketplace.visualstudio.com/items?itemName=octref.vetur"
 			target="_blank">Vetur</a>
 		or
-		<a 
+		<a
 			href="https://github.com/johnsoncodehk/volar"
 			target="_blank">Volar</a>
 		(if using
 		<code>&lt;script setup&gt;</code>)
+    <br>
+    You can also save yourself all the trouble of setting that up and simply use WebStorm.
 	</p>
 
 	<p>See <code>README.md</code> for more information.</p>
 
 	<p>
 		<a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Docs</a> |
-		<a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
+		<a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a> |
+		<a href="https://github.com/vuejs/vue-test-utils-next" target="_blank">Vue Test Utils</a>
 	</p>
 
 	<button id="e2e-test" v-on:click="count++">
-		Count is: {{ count }}
+		Reactive counter: {{ count }}
 	</button>
 	<p>
 		Edit
