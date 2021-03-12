@@ -7,4 +7,9 @@ describe('App', () => {
 
         expect(wrapper).toBeTruthy();
     });
+
+    it('can scale stuff', () => {
+        const wrapper = mount(App);
+        expect(wrapper.vm.scaleSomething(10)).toBe(5);
+    })
 });
