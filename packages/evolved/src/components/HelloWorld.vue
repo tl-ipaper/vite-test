@@ -26,9 +26,7 @@
 		<a href="https://github.com/vuejs/vue-test-utils-next" target="_blank">Vue Test Utils</a>
 	</p>
 
-	<button id="e2e-test" v-on:click="count++">
-		Reactive counter: {{ count }}
-	</button>
+	<button id="e2e-test" v-on:click="count++">Reactive counter: {{ count }}</button>
 	<p>
 		Edit
 		<code>components/HelloWorld.vue</code> to test hot module replacement.

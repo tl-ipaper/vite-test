@@ -3,13 +3,13 @@ describe('our awesome button', () => {
         await page.goto('http://localhost:3000');
 
         const buttonSelector = '#e2e-test';
-        expect(await page.textContent(buttonSelector)).toBe('Count is: 0');
+        expect(await page.textContent(buttonSelector)).toBe('Reactive counter: 0');
         await page.click(buttonSelector);
-        expect(await page.textContent(buttonSelector)).toBe('Count is: 1');
+        expect(await page.textContent(buttonSelector)).toBe('Reactive counter: 1');
         await page.click(buttonSelector);
-        expect(await page.textContent(buttonSelector)).toBe('Count is: 2');
+        expect(await page.textContent(buttonSelector)).toBe('Reactive counter: 2');
         await page.click(buttonSelector);
-        expect(await page.textContent(buttonSelector)).toBe('Count is: 3');
+        expect(await page.textContent(buttonSelector)).toBe('Reactive counter: 3');
 
         await page.close();
     });
